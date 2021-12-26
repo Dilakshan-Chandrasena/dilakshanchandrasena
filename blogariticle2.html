@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Bootstrap framework</title>
+    <link rel="stylesheet" href="blogarticles.css">
+</head>
+<body>
+    <header class="stick">
+        <div class="header_img">
+            <img id="header_img" src="logo.jpg" alt="">
+        </div>
+        <div class="name_header">
+            <h1 class="firstName">
+                <a href="index.html"> DILAKSHAN</a>
+            </h1>
+        </div>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("stick",window.scrollY > 0); 
+            })
+
+        </script>
+    </header>
+    <main id="blog-1">
+        <h1>Introduction to Bootstrap framework</h1>
+        <p class="blog-details">
+            <span>2mins</span>
+            <span>| 20.12.2021 |</span>
+            <span>02</span>
+        </p>
+        <div class="flex-article_conatiner">
+            <p>
+                Bootstrap is the most popular CSS framework for responsive and mobile-first websites. Before jumping into the Bootstrap framework, let’s see what is a framework. Framework is like a place where we can use already existing codes to use in our projects. Existing codes in the sense is a set of codes that wrote by the other developers for a certain functionality of a software like login.  Suppose we are building a software and we want add the login functionality. We can use a framework and grab the codes that already there and configure them as we want to build login functionality instead of coding it from the scratch. Basically, frameworks are there to make developers lives easy. 
+            </p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wesUO81YX0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div>
+            <p>
+                Bootstrap is developed by Mark Otto and Jacob Thornton at Twitter. First version was released on August 19th, 2011 licensed under MIT (Massachusetts Institute of Technology
+                ). Bootstrap is a free tool which we can download from their official website and its open source. We can customize it as we want. Bootstrap is a front-end development framework which means it shall use for UI development. We can not use it in the server side /back-end. Bootstrap is used with HTML and CSS to make much more interactive UIs while putting a lesser effort. It will make developers lives easy.
+                <br><br>
+
+                Bootstrap provides pre-defined CSS which can use directly to style web pages. Also, bootstrap supports responsive web designs. Nowadays, people are using large scale of screen sizes in devices. Our web pages should be move with those screen sizes effectively in order to give a good experience for the users. Since Bootstrap provides different type of layouts, we can define different layouts for different screen sizes which allows us to make our web pages responsive.
+                <br><br>
+                Bootstrap has a god browser compatibility as well which will be an extra advantage.
+                <br><br>
+                 HTML and CSS are the pre requisites for learning or using Bootstrap. Since Bootstrap comes with several JavaScript components in the form of jQuery plugins, it will be an added advantage if you know about JavaScript and jQuery. Each bootstrap components contains HTML structure, CSS styling and if necessary, JavaScript too. 
+                 <br><br>
+                 <img src="bootstrap-social.png" alt="layout-img">
+                 <br><br>
+                 How Bootstrap works?
+                 <br><br>
+                 As I mentioned earlier bootstrap has pre-defined HTML and CSS classes to use. Suppose, we have a button to design to use in our web page. We might want to change the font family, font color, size of the button, background, border and etc. Instead of writing codes to all those stuffs, simply we can use a Bootstrap class which is already there to use and design the same thing. 
+
+                
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>
+                Copyright  &copy;2021 All rights reserved | By Dilakshan Chandrasena
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
